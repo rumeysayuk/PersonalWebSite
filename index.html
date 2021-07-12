@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-state=1.0"/>
+    <title>Rümeysa</title>
+    <meta name="keywords" content="python,java,javaScript"/>
+    <meta name="description" content="Rümeysa ilk site"/>
+    <!--Fonts google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,500&display=swap" rel="stylesheet">
+    <!--Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+<header class="bg-dark-blue">
+    <div class="container">
+        <nav id="navbar">
+            <h1 class="heading-small">Rümeysa yük</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="home">
+    <img src="images/IMG-20200131-WA0091.jpg" alt="rumeysa" width="300px" height="260px">
+    <div class="name text-center">
+        <h2 class="heading-big">Rümeysa Yük</h2>
+        <p>Computer engineer & software devoloper</p>
+    </div>
+    <a href="downloads/rumeysaYukCv%20.pdf" class="btn btn-primary btn-block"> Cv'mi indir</a>
+</section>
+<section id="projects" class="bg-dark-blue">
+    <h3 class="text-center heading-medium">Projects</h3>
+    <div class="items">
+        <article class="item">
+            <i class="fas fa-file-code"></i>
+            <h3> Rent a Car Project</h3>
+            <p>Bir Araba kiralama sitesinin backend tarafı.</p>
+            <h3><a href="https://github.com/rumeysayuk/ReCapProject">Link</a></h3>
+        </article>
+        <article class="item">
+            <i class="fas fa-file-code"></i>
+            <h3> Instagram Clone Project</h3>
+            <p>React & nodeJs& mongodb gibi teknolojiler kullanılmıştır.</p>
+            <h3><a href="https://github.com/rumeysayuk/InstagramProject">Link</a></h3>
+        </article>
+        <article class="item">
+            <i class="fas fa-file-code"></i>
+            <h3>Nortwind Project</h3>
+            <p> Java ve postgreSql kullanılarak oluşturulacak bir sitenin backend tarafı kodlanmıştır. </p>
+            <h3><a href="https://github.com/rumeysayuk/northwind">Link</a></h3>
+        </article>
+    </div>
+</section>
+<section>
+    <div id="articles">
+        <h3 class="text-center heading-medium"></h3>
+        <div class="container">
+            <div class="courses">
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/cSharp.jpg" alt="cSharp" height="100px" width="300px">
+                        <span>C#</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">
+                            Backend
+                        </div>
+                        <div class="description">
+                            Backend yazmak için cSharp dili kullanılabilir.
+                        </div>
+                        <div class="instructor">
+                            Birkaç projem var
+                        </div>
+                        <div class="rating">Kullanılma yüzdesi : %70</div>
+                    </div>
+                </div>
+
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/javascript.jpg" alt="javaScript" height="100px" width="300px">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title"> Programlama dilidir</div>
+                        <div class="description">Hem backend hem frontend kodlanabilir.</div>
+                        <div class="instructor"> Daha yeni öğreniyorum</div>
+                        <div class="rating">Kullanılma yüzdesi : %80</div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="images/react.png" alt="reactjs" height="100px" width="300px">
+                        <span>ReactJs</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title"> JS Frameworkü</div>
+                        <div class="description"> İçinde mükemmel şeyler barındırıyor</div>
+                        <div class="instructor"> Component mimarisi kuruluyor</div>
+                        <div class="rating">Kullanılma yüzdesi : %90</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="contact" class="bg-dark-blue">
+    <div class="contact-form">
+        <form>
+            <h3 class="text-center heading-medium">Bana ulaşın</h3>
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea type="text" class="form-control" name="message" id="message" placeholder="Mesajınız"
+                          rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark btn-block ">Gönder</button>
+        </form>
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
