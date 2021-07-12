@@ -1,3 +1,3 @@
 # PersonalWebSite
 
-Html css kullanılarak tasarladığım kişisel bir web sitesi
+Html css kullanılarak SPA olarsk tasarladığım kişisel bir web sitesi
